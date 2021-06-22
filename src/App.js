@@ -19,9 +19,9 @@ function App() {
   return (
     <Router>
       <div className='logo-chido'>
-      <img src='logotipo.png' width='230px' height='145px'></img>
+      {/* <img src='logotipo.png' width='230px' height='145px'></img> */}
       </div>
-      <Footer/>
+      {/* <Footer/> */}
       <Navbar></Navbar>
       <Switch>
         <Route path='/' exact component={Home} />
